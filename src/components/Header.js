@@ -2,8 +2,9 @@ import PropTypes from "prop-types";
 
 const Header = ({ title }) => { // Used destructuting for props.title (<any>.title)
   return (
-    <header>
+    <header className="header">
       <h1>{title}</h1>
+      <button className="btn">Add</button>
     </header>
   );
 };
